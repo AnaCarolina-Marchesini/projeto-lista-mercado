@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Lista de Compras — Ana Carolina Marchesini</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main class="app">
+        <h1 id="titulo-principal">🛒 Lista de Compras</h1>
+
+        <div class="card" role="region" aria-labelledby="titulo-principal">
+
+            <form id="add-form" class="form-row" onsubmit="return false;" aria-label="Adicionar item à lista">
+
+                <label for="item-name" class="sr-only">Nome do item</label>
+                <input id="item-name" type="text" placeholder="Nome do item" required aria-required="true" />
+
+                <label for="item-qty" class="sr-only">Quantidade</label>
+                <input id="item-qty" type="number" min="1" value="1" required aria-required="true" />
+
+                <button id="add-btn" aria-label="Adicionar novo item">Adicionar</button>
+            </form>
+
+            <ul id="list" class="list" aria-live="polite"></ul>
+
+            <div class="total">
+                Total: <span id="total" aria-live="polite">R$ 0,00</span>
+            </div>
+
+            <button id="clear-all" aria-label="Limpar toda a lista de compras">
+                🗑️ Limpar Lista Completa
+            </button>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
