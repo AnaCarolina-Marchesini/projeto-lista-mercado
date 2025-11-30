@@ -1,7 +1,7 @@
 🛒 Lista de Compras — Ana Carolina Marchesini
-📌 Sobre o Projeto
+📖 Sobre o Projeto
 
-A ideia deste aplicativo surgiu ao perceber que a maioria das pessoas utiliza o celular diariamente para organizar tarefas — e que a ida ao mercado pode ser muito mais prática com uma lista digital.
+A ideia deste aplicativo surgiu porque a maioria das pessoas utiliza o celular diariamente para organizar tarefas — e a ida ao mercado pode ser muito mais prática com uma lista digital.
 
 O objetivo é criar uma experiência simples, rápida e funcional, permitindo ao usuário:
 
@@ -17,36 +17,34 @@ Usar tudo diretamente do navegador, inclusive no celular
 
 🎨 Design & Estilo
 
-As cores foram criadas utilizando o gerador de paletas do Coolors:
+As cores foram criadas utilizando o gerador de paletas Coolors:
 🔗 https://coolors.co/?home
 
 A imagem de fundo foi criada por Inteligência Artificial, trazendo um visual estilizado e coerente com o tema do projeto.
 
-🧩 Funcionalidades
+⚙️ Funcionalidades
 
-➕ Adicionar itens com nome, quantidade e preço
+✔️ Adicionar itens com nome, quantidade e preço
 
-✏️ Editar quantidade e preço diretamente na lista
+✔️ Editar quantidade e preço diretamente na lista
 
 ✔️ Marcar itens como comprados
 
-🗑️ Remover itens individualmente
+✔️ Remover itens individualmente
 
-🔄 Botão para limpar toda a lista (com confirmação)
+✔️ Botão para limpar toda a lista (com confirmação)
 
-💰 Total da compra calculado automaticamente
+✔️ Total da compra calculado automaticamente
 
-📱 Layout totalmente responsivo para celulares
-
-♿ Acessibilidade aprimorada com ARIA e navegação por teclado
+✔️ Layout totalmente responsivo para celulares
 
 ♿ Acessibilidade
 
 O projeto foi desenvolvido com foco na inclusão, incorporando:
 
-aria-label e aria-live para leitores de tela
+Áreas label e aria-label nos itens da lista
 
-Foco visível aprimorado
+Foco visual aprimorado
 
 Labels ocultas (sr-only) mantendo acessibilidade sem poluir o layout
 
@@ -54,11 +52,11 @@ Conteúdo dinâmico que respeita tecnologias assistivas
 
 Estrutura semântica para melhor navegação
 
-🧪 Preview do Projeto
+📸 Preview do Projeto
 
-Adicione aqui uma imagem, GIF ou vídeo demonstrando o funcionamento do app.
+Adicione aqui uma imagem, GIF ou vídeo demonstrando o funcionamento do app:
 
-![Preview do Projeto](./.github/App-Lista-Mercado.png)
+📷 Coloque sua captura de tela aqui
 
 🛠 Tecnologias Utilizadas
 
@@ -66,11 +64,11 @@ HTML5
 
 CSS3
 
-JavaScript (ES6+)
+JavaScript (ES+)
 
 Google Fonts — Montserrat
 
-👩‍💻 Autora
+✍️ Autora
 
 Ana Carolina Marchesini
 Aplicação criada com foco em praticidade, acessibilidade e experiência mobile.
