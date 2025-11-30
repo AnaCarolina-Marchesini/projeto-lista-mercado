@@ -1,9 +1,12 @@
 🛒 Lista de Compras — Ana Carolina Marchesini
-📖 Sobre o Projeto
+╔════════════════════════════════════════════════════╗
+║                    📖 SOBRE O PROJETO              ║
+╚════════════════════════════════════════════════════╝
+
 
 A ideia deste aplicativo surgiu porque a maioria das pessoas utiliza o celular diariamente para organizar tarefas — e a ida ao mercado pode ser muito mais prática com uma lista digital.
 
-O objetivo é criar uma experiência simples, rápida e funcional, permitindo ao usuário:
+O objetivo foi criar algo simples, rápido e funcional, permitindo:
 
 Registrar o que precisa comprar
 
@@ -11,54 +14,69 @@ Controlar quantidades e preços
 
 Marcar itens já comprados
 
-Visualizar o valor total atualizado automaticamente
+Visualizar total automaticamente
 
-Usar tudo diretamente do navegador, inclusive no celular
+Usar tudo direto do navegador — inclusive no celular
 
-🎨 Design & Estilo
+╔════════════════════════════════════════════════════╗
+║                   🎨 DESIGN & ESTILO               ║
+╚════════════════════════════════════════════════════╝
 
-As cores foram criadas utilizando o gerador de paletas Coolors:
-🔗 https://coolors.co/?home
 
-A imagem de fundo foi criada por Inteligência Artificial, trazendo um visual estilizado e coerente com o tema do projeto.
+🎨 As cores do projeto foram geradas pela ferramenta Coolors:
+👉 https://coolors.co/?home
 
-⚙️ Funcionalidades
+🖼 A imagem de fundo foi criada por Inteligência Artificial, garantindo um visual coerente com o projeto.
+
+╔════════════════════════════════════════════════════╗
+║                 ⚙️ FUNCIONALIDADES                 ║
+╚════════════════════════════════════════════════════╝
+
 
 ✔️ Adicionar itens com nome, quantidade e preço
 
-✔️ Editar quantidade e preço diretamente na lista
+✔️ Editar diretamente na lista
 
-✔️ Marcar itens como comprados
+✔️ Marcar como comprado
 
 ✔️ Remover itens individualmente
 
-✔️ Botão para limpar toda a lista (com confirmação)
+✔️ Limpar toda a lista (com confirmação)
 
-✔️ Total da compra calculado automaticamente
+✔️ Total calculado automaticamente
 
-✔️ Layout totalmente responsivo para celulares
+✔️ Interface responsiva para celulares
 
-♿ Acessibilidade
+╔════════════════════════════════════════════════════╗
+║                    ♿ ACESSIBILIDADE                ║
+╚════════════════════════════════════════════════════╝
 
-O projeto foi desenvolvido com foco na inclusão, incorporando:
 
-Áreas label e aria-label nos itens da lista
+O projeto foi criado com foco na inclusão:
 
-Foco visual aprimorado
+Labels sem poluir o visual (sr-only)
 
-Labels ocultas (sr-only) mantendo acessibilidade sem poluir o layout
+Focus visível
 
-Conteúdo dinâmico que respeita tecnologias assistivas
+ARIA para leitores de tela
 
-Estrutura semântica para melhor navegação
+Estrutura semântica
 
-📸 Preview do Projeto
+Conteúdo compatível com tecnologias assistivas
 
-Adicione aqui uma imagem, GIF ou vídeo demonstrando o funcionamento do app:
+╔════════════════════════════════════════════════════╗
+║                 📸 PREVIEW DO PROJETO              ║
+╚════════════════════════════════════════════════════╝
 
-📷 Coloque sua captura de tela aqui
 
-🛠 Tecnologias Utilizadas
+📷 Adicione aqui sua imagem, GIF ou vídeo mostrando o app:
+
+![Preview do Projeto](./.github/App-Lista-Mercado.png)
+
+╔════════════════════════════════════════════════════╗
+║              🛠 TECNOLOGIAS UTILIZADAS             ║
+╚════════════════════════════════════════════════════╝
+
 
 HTML5
 
@@ -68,7 +86,10 @@ JavaScript (ES+)
 
 Google Fonts — Montserrat
 
-✍️ Autora
+╔════════════════════════════════════════════════════╗
+║                        ✍️ AUTORA                   ║
+╚════════════════════════════════════════════════════╝
+
 
 Ana Carolina Marchesini
 Aplicação criada com foco em praticidade, acessibilidade e experiência mobile.
